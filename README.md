@@ -1,4 +1,4 @@
-# CTMAP: Inferring gene regulatory networks from single-cell RNA sequencing data by dual-role graph contrastive learning
+# CTMAP: Adversarially Aligned Attention Networks for Robust Cell-Type Annotation in Single-Cell Spatial Transcriptomics
 ## Introduction
 `CTMAP` is a deep learning framework for accurate cell type annotation of single-cell resolution spatial transcriptomics data by integrating labeled scRNA-seq reference with domain adversarial alignment in a shared latent space.
 <div align="center">
