@@ -42,41 +42,14 @@ pip install git+http://github.com/SDU-Math-SunLab/CTMAP.git
 
 
 ### Package usage
-Quick start by an example of `tutorial.ipynb`
+Clone the repository and navigate to the project root:
 ```
-import RegGAIN_script as rg
-# Inputs
-exp_data_path = "data.csv" 
-prior_net_path = "network_mouse.csv"
-
-# The preprocessing steps.
-adata = rg.data_preparation(exp_data_path, prior_net_path)
-
-config = {
-    'epochs': 500,  
-    'lr': 0.001,
-    'device': device,
-    'repeat': 10,
-    'seed': 42,
-    'k': 50,
-    'adjacency_powers': [0, 1, 2],
-    'first_layer_dims': [80, 80, 10],
-    'hidden_layer_dims_list': "40 40 5,16 16 2",
-    'pos': 10,
-    
-    # Data augmentation parameters
-    'edge_alpha1': 0.6, 'edge_alpha2': 0.3,
-    'edge_beta1': 0.3, 'edge_beta2': 0.3,
-    'node_alpha1': 0.5, 'node_alpha2': 0.2,
-    'node_beta1': 0.2, 'node_beta2': 0.2,
-}
-
-
-#  Run the RegGAIN algorithm
-results = rg.run_reggain(
-    exp_data=exp_data_path,
-    prior_net=prior_net_path,
-    config=config)
+git clone https://github.com/yourusername/CTMAP-main.git
+cd CTMAP-main
+```
+Run CTMAP on the provided example dataset:
+```
+python run.py
 ```
 ## Reference
 Qiyuan Guan, Jiating Yu, Jieyi Pan, Fan Yuan, Jiadong Ji, Rusong Zhao, Zhi-Ping Liu, Bingqiang Liu, Ling-Yun Wu, and Duanchen Sun. "Inferring gene regulatory networks from single-cell RNA sequencing data by dual-role graph contrastive learning". *Advanced Science*, 2025.<br>
