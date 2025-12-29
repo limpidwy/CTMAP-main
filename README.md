@@ -35,7 +35,7 @@ Update the file paths in `tutorial.ipynb` if your data is located elsewhere.
 After setting up the environment and preparing the data, you can run CTMAP with:
 
 ```bash
-python run.py
+python CTMAP/run.py
 ```
 ## Tutorials
 * **[CTMAP pipeline on the MERFISH dataset](./tutorial.ipynb)**: Workflow covering data loading, model training, evaluation (Accuracy, NMI, ARI), and visualization for the mouse hypothalamic preoptic MERFISH dataset.
