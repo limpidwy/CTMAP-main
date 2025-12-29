@@ -1,4 +1,4 @@
-# CTMAP: Adversarially Aligned Attention Networks for Robust Cell-Type Annotation in Single-Cell Spatial Transcriptomics
+# CTMAP: an adversarial cross-modal learning framework for accurate and robust cell-type annotation in single-cell spatial transcriptomics
 ## Introduction
 `CTMAP` is a deep learning framework for accurate cell type annotation of single-cell resolution spatial transcriptomics data by integrating labeled scRNA-seq reference with domain adversarial alignment in a shared latent space.
 <div align="center">
