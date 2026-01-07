@@ -11,7 +11,7 @@
 CTMAP is designed to run on GPUs and is tested with Python 3.9 in a Conda environment.
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/limpidwy/CTMAP.git
+    git clone https://github.com/SDU-Math-SunLab/CTMAP.git
     cd CTMAP
     ```
 2.  **Create the Conda environment**:
