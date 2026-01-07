@@ -26,7 +26,7 @@ CTMAP is designed to run on GPUs and is tested with Python 3.9 in a Conda enviro
 To run the tutorial, place the required datasets (`adata_merfish.h5ad` and `adata_rna.h5ad`) in the following directory:
 
 ```bash
-CTMAP-main/dataset/MERFISH/
+CTMAP/dataset/MERFISH/
 ```
 
 Update the file paths in `tutorial.ipynb` if your data is located elsewhere.
