@@ -12,7 +12,7 @@ CTMAP is designed to run on GPUs and is tested with Python 3.9 in a Conda enviro
 1.  **Clone the repository**:
     ```bash
     git clone https://github.com/limpidwy/CTMAP.git
-    cd CTMAP-main
+    cd CTMAP
     ```
 2.  **Create the Conda environment**:
     ```bash
